@@ -1,0 +1,66 @@
+.header {
+}
+.logo {
+}
+.nav {
+}
+.nav-list {
+}
+.nav-item {
+}
+.nav-link {
+}
+.contact-list {
+}
+.contact-item {
+}
+.contact-link {
+}
+.section {
+}
+/* .hero h1 {
+  outline: orange 2px solid;
+  color: brown;
+  text-align: start;
+  text-indent: 100px;
+  color: #ffffff;
+  text-shadow: 2px 2px 20px #ff0000, 5px 5px 5px #000000;
+  font-size: 20px;
+  font-family: "Tangerine", cursive;
+}
+.hero h1::first-letter {
+  font-family: "Tahoma", serif;
+  font-size: 32px;
+  color: #f44336;
+}
+.hero h1::selection {
+  color: #ffffff;
+  background-color: #3fb57c;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+} */
+/* лайн хейт \ фонт сайз */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
