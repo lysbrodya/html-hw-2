@@ -1,56 +1,105 @@
-.header {
+:root {
+  --color-white: #ffffff;
+  --color-text: #757575;
+  --color-text-title: #212121;
+  --color-accent-blue: #2196f3;
+  /*  */
+  --color-dark-bg: #2f303a;
+  --color-black: #000000;
+  --color-light-bg: #f5f4fa;
+  --color-light-text: #eeeeee;
+  --color-lighter-bg: #ececec;
+  --color-bright-blue: #188be7;
 }
+
+/* GLOBAL */
+body {
+  color: var(--color-text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+}
+h2,
+h3,
+h4 {
+  color: var(--color-text-title);
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+
+/* ------------HEDER----------------*/
+/* .header {
+} */
 .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  /* letter-spacing: 0.03em; */
+  color: var(--color-black);
+}
+.logo-blue {
+  color: var(--color-accent-blue);
 }
 .nav {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
 }
-.nav-list {
+/* .nav-list {
 }
 .nav-item {
-}
+} */
 .nav-link {
+  color: var(--color-text-title);
 }
-.contact-list {
+.nav-link.active {
+  color: var(--color-accent-blue);
+}
+/* .contact-list {
 }
 .contact-item {
-}
-.contact-link {
-}
-.section {
-}
-/* .hero h1 {
-  outline: orange 2px solid;
-  color: brown;
-  text-align: start;
-  text-indent: 100px;
-  color: #ffffff;
-  text-shadow: 2px 2px 20px #ff0000, 5px 5px 5px #000000;
-  font-size: 20px;
-  font-family: "Tangerine", cursive;
-}
-.hero h1::first-letter {
-  font-family: "Tahoma", serif;
-  font-size: 32px;
-  color: #f44336;
-}
-.hero h1::selection {
-  color: #ffffff;
-  background-color: #3fb57c;
-}
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0, 0, 0, 0);
-  overflow: hidden;
 } */
-/* лайн хейт \ фонт сайз */
+.contact-link:hover {
+  color: var(--color-accent-blue);
+}
+/* ----------------MAIN----------------- */
+/* PAGE STUDIO */
+/* ------------Section HERO ------------*/
+.section.hero {
+  background-color: var(--color-dark-bg);
+  text-align: center;
+  color: var(--color-white);
+}
+.hero > h1 {
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button {
+  background-color: var(--color-accent-blue);
+  color: var(--color-white);
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+.button:hover {
+  background-color: var(--color-bright-blue);
+}
+
+/* ---------------Section Advantages---------------- */
+/* ------------Visually Hidden ------------*/
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -63,4 +112,76 @@
   clip-path: inset(100%);
   clip: rect(0, 0, 0, 0);
   overflow: hidden;
+}
+.advantages-list h3 {
+  font-weight: 700;
+  font-size: 14px;
+}
+.advantages-list p {
+  line-height: 1.71;
+  /* letter-spacing: 0.03em; */
+}
+
+/* ---------------Section Activity---------------- */
+
+.section.activity h2,
+.portfolio h2 {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* ---------------Section Portfolio---------------- */
+.portfolio-section {
+  background-color: var(--color-light-bg);
+}
+.portfolio-list h3,
+.portfolio-list p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+/* ----------------MAIN----------------- */
+/* PAGE PORTFOLIO */
+.portfolio-button {
+  background-color: var(--color-light-bg);
+  color: var(--color-text-title);
+  font-size: 16px;
+  line-height: 1.63;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+.portfolio-button:hover {
+  background-color: var(--color-accent-blue);
+  color: var(--color-white);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+.card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.card-text {
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+}
+/* -----------FOOTER------------------- */
+.footer {
+  background-color: var(--color-dark-bg);
+  line-height: 1.17;
+}
+.footer a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer .logo,
+.footer .adress {
+  color: var(--color-white);
 }

@@ -4,19 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webstudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <a href="/" class="logo">Webstudio</a>
+      <a href="/" class="logo"><span class="logo-blue">Web</span>Studio</a>
       <nav class="nav">
         <ul class="nav-list">
-          <li class="nav-item"><a class="nav-link" href="">Студія</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Портфоліо</a></li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./index.html">Студія</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">Портфоліо</a>
+          </li>
           <li class="nav-item"><a class="nav-link" href="">Контакти</a></li>
         </ul>
       </nav>
@@ -34,13 +40,16 @@
     <main>
       <!-- // Hero Section -->
       <section class="section hero">
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+        <h1>
+          Ефективні рішення для <br />
+          вашого бізнесу
+        </h1>
+        <button class="button" type="button">Замовити послугу</button>
       </section>
       <!-- // Advantages Section -->
-      <section class="section">
+      <section class="section advantages">
         <h2 class="visually-hidden">Our Advantages</h2>
-        <ul>
+        <ul class="advantages-list">
           <li>
             <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
             <p>
@@ -71,7 +80,7 @@
         </ul>
       </section>
       <!-- // Activity Section -->
-      <section class="section">
+      <section class="section activity">
         <h2>Чим ми займаємося</h2>
         <ul>
           <li>
@@ -98,9 +107,9 @@
         </ul>
       </section>
       <!-- // Portfolio Section -->
-      <section class="section">
+      <section class="section portfolio-section">
         <h2>Наша команда</h2>
-        <ul>
+        <ul class="portfolio-list">
           <li>
             <img
               src="./images/portfolio-section/img.jpg"
@@ -140,10 +149,10 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="/">Webstudio</a>
+    <footer class="footer">
+      <a class="logo" href="/"><span class="logo-blue">Web</span>Studio</a>
       <ul>
-        <li><a href="">м. Київ, пр-т Лесі Українки, 26</a></li>
+        <li><a class="adress" href="">м. Київ, пр-т Лесі Українки, 26</a></li>
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
