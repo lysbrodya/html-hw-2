@@ -1,0 +1,127 @@
+/* /////////////////////////////////////////// */
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+
+.icon {
+  margin-left: 12px;
+  margin-right: 12px;
+  border: 2px dashed #2a2a2a;
+  border-radius: 8px;
+  fill: #2a2a2a;
+  stroke: #f44336;
+  stroke-width: 1px;
+  stroke-opacity: 0.5;
+}
+
+.icon:hover {
+  fill: #03a9f4;
+}
+/* //////////////////////////////////// */
+/* .text {
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+  color: transparent;
+}
+.items {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  width: 240px;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 10px dashed orangered;
+  margin: 0 auto 1rem;
+  background-color: hsla(0, 0%, 0%, 0.1);
+  background-image: url("https://ac.goit.global/img/photo.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: attr(data-clip);
+}
+[data-clip="padding-box"] {
+  background-clip: padding-box;
+}
+
+[data-clip="content-box"] {
+  background-clip: content-box;
+}
+
+[data-clip="text"] {
+  -webkit-background-clip: text;
+  background-clip: text;
+} */
+.container {
+  display: flex;
+  padding-top: 15px;
+}
+.wrp-image {
+  width: 240px;
+  border: 1px solid gold;
+  margin: 0 15px 15px;
+}
+.images {
+  display: block;
+  width: 100%;
+}
+.images {
+  display: block;
+  width: 100%;
+}
+.cite::before {
+  content: "\275D";
+}
+.cite::after {
+  content: "\275E";
+}
+body {
+  min-height: 100vh;
+  background: linear-gradient(
+    -45deg,
+    hsl(0, 100%, 30%) 25%,
+    hsl(270, 100%, 30%) 100%
+  );
+}
+
+body {
+  min-height: 100vh;
+  background: repeating-linear-gradient(
+      #bbb 1px,
+      transparent 2px,
+      transparent 28px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      #bbb 1px,
+      transparent 2px,
+      transparent 28px
+    );
+}
+.controls {
+  padding: 1rem;
+  text-align: center;
+}
+.btn {
+  padding: 0.5rem 1.75rem;
+  border: none;
+  background: linear-gradient(hsl(120, 100%, 35%), hsl(120, 100%, 20%));
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px 3px hsla(0, 0%, 0%, 0.1);
+}
+.btn:hover,
+.btn:focus {
+  box-shadow: 1px 1px 1px 1px hsla(0, 0%, 0%, 0.3);
+}
+
+.btn:active {
+  box-shadow: inset 3px 3px 3px 3px hsla(0, 0%, 0%, 0.3);
+}
