@@ -96,5 +96,13 @@
       <path d="M67.104 66.692 38 59.551V34.427l29.104 7.139z"/>
       <path d="m51.99 24.371 25.458 6.244-10.827 9.35-25.462-6.247zm-.483-1.604L38 34.427l29.104 7.14 13.504-11.662zM68.741 65.279l11.867-10.247-11.867-2.913z"/>
     </symbol>
+    <!-- modal icon -->
+
+      <symbol id="close" viewBox="0 0 24 24"><path fill="none" d="M7 17L16.8995 7.10051" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path fill="none" d="M7 7.00001L16.8995 16.8995" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></symbol>
+<symbol id="modal-close" viewBox="0 0 11 11" fill="none">
+<path d="M11 1.10786L9.89214 0L5.5 4.39214L1.10786 0L0 1.10786L4.39214 5.5L0 9.89214L1.10786 11L5.5 6.60786L9.89214 11L11 9.89214L6.60786 5.5L11 1.10786Z" fill="currentColor"/>
+</symbol>
+
+
   </defs>
 </svg>

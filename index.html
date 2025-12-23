@@ -62,7 +62,9 @@
             Ефективні рішення для <br />
             вашого бізнесу
           </h1>
-          <button class="button" type="button">Замовити послугу</button>
+          <button class="button" data-modal-open type="button">
+            Замовити послугу
+          </button>
         </div>
       </section>
       <!-- // Advantages Section -->
@@ -117,26 +119,29 @@
         <div class="container activity-container">
           <h2>Чим ми займаємося</h2>
           <ul class="activity-list">
-            <li>
+            <li class="activity-item">
               <img
                 src="./images/activiti-section/img1.jpg"
                 alt="робота за комп'ютером"
                 width="370"
               />
+              <h3 class="activity-title">Десктопні додатки</h3>
             </li>
-            <li>
+            <li class="activity-item">
               <img
                 src="./images/activiti-section/img2.jpg"
                 alt="створення мобільного додатку"
                 width="370"
               />
+              <h3 class="activity-title">Мобільні додатки</h3>
             </li>
-            <li>
+            <li class="activity-item">
               <img
                 src="./images/activiti-section/img3.jpg"
                 alt="робота на планшеті"
                 width="370"
               />
+              <h3 class="activity-title">Дизайнерські рішення</h3>
             </li>
           </ul>
         </div>
@@ -337,7 +342,9 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-adress">
-          <a class="logo" href="/"><span class="logo-blue">Web</span>Studio</a>
+          <a class="logo footer-logo" href="/"
+            ><span class="logo-blue">Web</span>Studio</a
+          >
           <ul class="footer-list">
             <li class="footer-item">
               <a class="adress" href="">м. Київ, пр-т Лесі Українки, 26</a>
@@ -381,5 +388,16 @@
         </div>
       </div>
     </footer>
+    <!-- Modal window -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-btn" data-modal-close="" type="button">
+          <svg class="modal-icon" width="11" height="11">
+            <use href="./images/sprite.svg#modal-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
