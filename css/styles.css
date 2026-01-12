@@ -617,16 +617,27 @@ img {
   top: 8px;
   right: 8px;
   overflow: hidden;
+  box-sizing: border-box;
 }
 .modal-icon {
+  display: block;
   transition: scale 0.5s ease-in-out;
   color: var(--color-black);
+  box-sizing: border-box;
+  width: 11px;
+  height: 11px;
 }
-.modal-icon:hover {
+.modal-btn:hover > .modal-icon {
   overflow: hidden;
   scale: 1.4;
   cursor: pointer;
+  color: var(--color-accent-blue);
 }
+/* .modal-icon:hover {
+  overflow: hidden;
+  scale: 1.4;
+  cursor: pointer;
+} */
 .backdrop.is-hidden {
   visibility: hidden;
   opacity: 0;
